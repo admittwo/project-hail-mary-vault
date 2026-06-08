@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Project Hail Mary Vault</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="landing" class="center">
+  <h1>PROJECT HAIL MARY</h1>
+  <p>9 April 2026 • PXL VR Mall • Audi 1 • Seats L1 & L2</p>
+  <button onclick="showLogin()">Enter Memory Vault</button>
+</div>
+
+<div id="login" class="center hidden">
+  <h2>Enter Passcode</h2>
+  <input type="password" id="pass" placeholder="Passcode">
+  <button onclick="checkPass()">Unlock</button>
+</div>
+
+<div id="vault" class="hidden">
+<nav>
+<a href="#timeline">Timeline</a>
+<a href="#gallery">Photos</a>
+<a href="#videos">Videos</a>
+<a href="#messages">Messages</a>
+<a href="#capsule">Time Capsule</a>
+</nav>
+
+<section id="timeline">
+<h2>Timeline</h2>
+<div class="card">12:45 PM — Reached VR Mall</div>
+<div class="card">1:20 PM — Collected Tickets</div>
+<div class="card">1:40 PM — Movie Started</div>
+<div class="card">4:15 PM — Movie Ended</div>
+</section>
+
+<section id="gallery">
+<h2>Photo Gallery</h2>
+<p>Upload your photos into the photos folder and replace these placeholders.</p>
+<div class="grid">
+<div class="card">Photo 1</div>
+<div class="card">Photo 2</div>
+<div class="card">Photo 3</div>
+</div>
+</section>
+
+<section id="videos">
+<h2>Video Gallery</h2>
+<div class="card">Video Memory 1</div>
+<div class="card">Video Memory 2</div>
+</section>
+
+<section id="messages">
+<h2>Message</h2>
+<p>We watched Project Hail Mary together. This vault was created so we can revisit this day years later.</p>
+</section>
+
+<section id="capsule">
+<h2>Future Time Capsule</h2>
+<p>Dear Future Us, I hope we're still making memories like this.</p>
+</section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
