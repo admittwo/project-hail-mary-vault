@@ -7,6 +7,7 @@
 <title>Project Hail Mary Vault</title>
 
 <style>
+
 body{
 background:#0b0f18;
 color:white;
@@ -30,6 +31,8 @@ font-size:16px;
 cursor:pointer;
 border:none;
 border-radius:8px;
+background:#ffd54a;
+font-weight:bold;
 }
 
 input{
@@ -45,6 +48,7 @@ top:0;
 background:#141a27;
 padding:15px;
 text-align:center;
+z-index:1000;
 }
 
 nav a{
@@ -61,7 +65,7 @@ margin:auto;
 }
 
 .chapter{
-font-size:28px;
+font-size:30px;
 margin-bottom:20px;
 color:#ffd54a;
 }
@@ -71,6 +75,7 @@ background:#1a2233;
 padding:20px;
 border-radius:12px;
 margin-bottom:15px;
+line-height:1.7;
 }
 
 .card a{
@@ -81,8 +86,20 @@ text-decoration:none;
 
 .story{
 font-size:18px;
-line-height:1.7;
+line-height:1.9;
 }
+
+.hero-title{
+font-size:48px;
+margin-bottom:10px;
+color:#ffd54a;
+}
+
+.hero-sub{
+font-size:22px;
+margin-bottom:20px;
+}
+
 </style>
 
 </head>
@@ -91,36 +108,44 @@ line-height:1.7;
 
 <div id="landing" class="center">
 
-<h1>🎬 PROJECT HAIL MARY</h1>
+<h1 class="hero-title">🚀 WELCOME ON BOARD HAIL MARY</h1>
+
+<h2>🎫 TICKET VERIFIED</h2>
+
+<p class="hero-sub">
+ADMIT TWO
+</p>
 
 <p>
-9 April 2026<br>
+Mission Date: 9 April 2026<br>
 PXL VR Mall<br>
 Audi 1 • Seats L1 & L2
 </p>
 
-<p>
-One movie.<br>
-One memory.<br>
-One story.
+<p style="max-width:700px;margin:auto;line-height:1.8;">
+Passenger authentication complete.<br>
+Memory archive located.<br>
+Accessing mission logs from 9 April 2026.
 </p>
 
+<br>
+
 <button onclick="showLogin()">
-Enter Memory Vault
+ENTER MEMORY VAULT
 </button>
 
 </div>
 
 <div id="login" class="center hidden">
 
-<h2>Enter Passcode</h2>
+<h2>🔐 Enter Passcode</h2>
 
-<input type="password" id="pass">
+<input type="password" id="pass" placeholder="Passcode">
 
 <br><br>
 
 <button onclick="checkPass()">
-Unlock
+UNLOCK
 </button>
 
 </div>
@@ -137,21 +162,52 @@ Unlock
 
 <section id="story">
 
-<div class="chapter">📖 Our Story</div>
+<div class="chapter">📖 Mission Log</div>
 
 <div class="card story">
 
-9 April 2026.
+9 April 2026
 
-Project Hail Mary.
+We watched Project Hail Mary together at PXL, VR Mall.
 
-PXL VR Mall.
+Audi 1<br>
+Seats: L1 & L2
 
-Audi 1.
+<br><br>
 
-Seats L1 & L2.
+We have been to so many movie dates, but this one holds a very special place.
 
-This vault exists so that years from now we can revisit this day and relive the memories we created together.
+Everything about the day felt so cute.
+
+We made a lot of memories and documented ourselves to revisit in the future.
+
+Us watching Project Hail Mary on the biggest screen in the city?
+
+Couldn't have asked for more.
+
+A core memory for sure.
+
+<br><br>
+
+We had the best time together...
+
+Or maybe time simply gets better because we're in it.
+
+I still can't decide.
+
+<br><br>
+
+I hope we watched dozens of movies in the years that followed.
+
+And if you guys stopped going to cinemas for some reason...
+
+Congratulations.
+
+You just booked yourselves a special place in Hell.
+
+<br><br>
+
+Go. To. The. Movie. Theatre.
 
 </div>
 
@@ -162,17 +218,17 @@ This vault exists so that years from now we can revisit this day and relive the 
 <div class="chapter">🎬 Before The Movie</div>
 
 <div class="card">
-01 - Montage of our movie date<br><br>
+01 - Montage Of Our Movie Date<br><br>
 <a target="_blank" href="https://drive.google.com/file/d/1htkdl0y95leNcADX1Sd34vhgrKNh4xnL/view">Open Memory</a>
 </div>
 
 <div class="card">
-03 - Clingy couple btw<br><br>
+03 - Clingy Couple BTW<br><br>
 <a target="_blank" href="https://drive.google.com/file/d/174-Vdm9akZsclRP2f6bGytblTBMV-tcs/view">Open Memory</a>
 </div>
 
 <div class="card">
-04 - Walking to PXL<br><br>
+04 - Walking To PXL<br><br>
 <a target="_blank" href="https://drive.google.com/file/d/1J0UkteLDsSfKx1sWz9rzwTCFqT89yr_3/view">Open Memory</a>
 </div>
 
@@ -190,11 +246,11 @@ This vault exists so that years from now we can revisit this day and relive the 
 
 <div class="card"><a target="_blank" href="https://drive.google.com/file/d/1LtGGGoF_Xde5z8H1AeifJ6EzSD4d4M9L/view">08 - Annoying Kid</a></div>
 
-<div class="card"><a target="_blank" href="https://drive.google.com/file/d/166PJF5RzfgJAkG7m38i1e4CXg1E_FkO0/view">09 - Bro thinks she's Max</a></div>
+<div class="card"><a target="_blank" href="https://drive.google.com/file/d/166PJF5RzfgJAkG7m38i1e4CXg1E_FkO0/view">09 - Bro Thinks She's Max</a></div>
 
-<div class="card"><a target="_blank" href="https://drive.google.com/file/d/1rZLy3krQw0ZMW7RQf_sxQ1IPOQZ25P7l/view">10 - Lights Out, Phones Down</a></div>
+<div class="card"><a target="_blank" href="https://drive.google.com/file/d/1rZLy3krQw0ZMW7RQf_sxQ1IPOQZ25P7l/view">10 - Lights Out, Phones Down Please!</a></div>
 
-<div class="card"><a target="_blank" href="https://drive.google.com/file/d/1Z5c6_rsx08HAyeRcW-NfRhy4K08okb_q/view">11 - Having a Moment</a></div>
+<div class="card"><a target="_blank" href="https://drive.google.com/file/d/1Z5c6_rsx08HAyeRcW-NfRhy4K08okb_q/view">11 - Shh... I'm Having A Moment</a></div>
 
 <div class="card"><a target="_blank" href="https://drive.google.com/file/d/13EFZDA7qp8bF-kVx2uIubSqN5OKBczu5/view">12 - Grace Rocky Save Stars</a></div>
 
@@ -204,13 +260,13 @@ This vault exists so that years from now we can revisit this day and relive the 
 
 <div class="chapter">🍕 After The Movie</div>
 
-<div class="card"><a target="_blank" href="https://drive.google.com/file/d/12S-xCLqNaexkY630KvJC09a-w3Avqne4/view">13 - Art and the Artist</a></div>
+<div class="card"><a target="_blank" href="https://drive.google.com/file/d/12S-xCLqNaexkY630KvJC09a-w3Avqne4/view">13 - Art And The Artist</a></div>
 
-<div class="card"><a target="_blank" href="https://drive.google.com/file/d/14TEDa0tKy8bw3SMuYYk9vMb548UYJLOa/view">14 - Having a Convo</a></div>
+<div class="card"><a target="_blank" href="https://drive.google.com/file/d/14TEDa0tKy8bw3SMuYYk9vMb548UYJLOa/view">14 - Having A Convo</a></div>
 
-<div class="card"><a target="_blank" href="https://drive.google.com/file/d/12hlzRqCi6JEB7s_ZGbxx0KPcOFiDJG0t/view">15 - Longest Cheese Pull</a></div>
+<div class="card"><a target="_blank" href="https://drive.google.com/file/d/12hlzRqCi6JEB7s_ZGbxx0KPcOFiDJG0t/view">15 - Longest Cheese Pull I've Seen</a></div>
 
-<div class="card"><a target="_blank" href="https://drive.google.com/file/d/1nxBk1TUzSRX5EcBpyoN3kdzFKUyvYxqR/view">16 - Best Pizza Ever</a></div>
+<div class="card"><a target="_blank" href="https://drive.google.com/file/d/1nxBk1TUzSRX5EcBpyoN3kdzFKUyvYxqR/view">16 - Best Pizza Ever Statement</a></div>
 
 </section>
 
@@ -220,11 +276,15 @@ This vault exists so that years from now we can revisit this day and relive the 
 
 <div class="card">
 
-Dear Future Us,
+If you're reading this years later,
 
-If you're reading this years later, I hope we're still making memories like this.
+I hope we're still creating memories together.
 
-No matter where life takes us, this day will always belong to us.
+I hope we're still going to movie theatres.
+
+I hope we're still laughing at stupid jokes.
+
+And I hope we never forget how special this day felt.
 
 ❤️
 
